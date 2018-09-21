@@ -43,3 +43,18 @@
 [选项卡2](https://wangluo1601.github.io/javascript/tab.html)https://wangluo1601.github.io/javascript/tab.html
 
 ----------
+## jquery
+
+[按钮](https://wangluo1601.github.io/jquery/button.html)https://wangluo1601.github.io/jquery/button.html
+
+[hover按钮](https://wangluo1601.github.io/jquery/csshuadong.html)https://wangluo1601.github.io/jquery/csshuadong.html
+
+[jq-ajax1](https://wangluo1601.github.io/jquery/jq-ajax.html)https://wangluo1601.github.io/jquery/jq-ajax.html
+
+[jq-ajax2](https://wangluo1601.github.io/jquery/jq-meinu.html)https://wangluo1601.github.io/jquery/jq-meinu.html
+
+[放大1](https://wangluo1601.github.io/jquery/zoom.html)https://wangluo1601.github.io/jquery/zoom.html
+
+[放大2](https://wangluo1601.github.io/jquery/jq-zoom02.html)https://wangluo1601.github.io/jquery/jq-zoom02.html
+
+[轮播图](https://wangluo1601.github.io/jquery/slider.html)https://wangluo1601.github.io/jquery/slider.html
