@@ -58,3 +58,6 @@
 [放大2](https://wangluo1601.github.io/jquery/jq-zoom02.html)https://wangluo1601.github.io/jquery/jq-zoom02.html
 
 [轮播图](https://wangluo1601.github.io/jquery/slider.html)https://wangluo1601.github.io/jquery/slider.html
+
+------
+[svg](https://wangluo1601.github.io/svg/svg-loading-icons)https://wangluo1601.github.io/svg/svg-loading-icons
