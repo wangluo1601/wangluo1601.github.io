@@ -5,7 +5,15 @@
 
 [css开关样式](https://wangluo1601.github.io/html+css/input (2).html)https://wangluo1601.github.io/html+css/input (2).html
 
+[input-demo](https://wangluo1601.github.io/html+css/8-9.html)https://wangluo1601.github.io/html+css/8-9.html
+
 [3D动画](https://wangluo1601.github.io/html+css/loading.html)https://wangluo1601.github.io/html+css/loading.html
+
+[3D动画2](https://wangluo1601.github.io/html+css/8-10.html)https://wangluo1601.github.io/html+css/8-10.html
+
+[hover动画2](https://wangluo1601.github.io/html+css/hover (2).html)https://wangluo1601.github.io/html+css/hover (2).html
+
+[hover动画](https://wangluo1601.github.io/html+css/hover.html)https://wangluo1601.github.io/html+css/hover.html
 
 [原生Css+Html仿炉石官网](https://wangluo1601.github.io/html+css/lushiindex)https://wangluo1601.github.io/html+css/lushiindex
 
