@@ -30,6 +30,16 @@
 
 [打飞机游戏](https://wangluo1601.github.io/javascript/plane)https://wangluo1601.github.iojavascript/plane
 
-[轮播图](https://wangluo1601.github.io/javascript/xinqiliu)https://wangluo1601.github.io/javascriptxinqiliu
+[轮播图](https://wangluo1601.github.io/javascript/xinqiliu)https://wangluo1601.github.io/javascript/xinqiliu
+
+[上下左右移动](https://wangluo1601.github.io/javascript/animation-keypress.html)https://wangluo1601.github.io/javascript/animation-keypress.html
+
+[轮播图2](https://wangluo1601.github.io/javascript/052.html)https://wangluo1601.github.io/javascript/052.html
+
+[选项卡](https://wangluo1601.github.io/javascript/051.html)https://wangluo1601.github.io/javascript/051.html
+
+[轮播图3](https://wangluo1601.github.io/javascript/click.html)https://wangluo1601.github.io/javascript/click.html
+
+[选项卡2](https://wangluo1601.github.io/javascript/tab.html)https://wangluo1601.github.io/javascript/tab.html
 
 ----------
