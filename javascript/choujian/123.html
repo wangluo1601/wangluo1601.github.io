@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="turntable-bg">
+			<div id="pointer"></div>
+			<div id="turntable"></div>
+		</div>
+		<style type="text/css">
+			body{margin: 0;}
+			#turntable-bg{
+				width: 650px;
+				height: 600px;
+			    background: url(img/turntable-bg.jpg) no-repeat;
+			    position: relative;
+			    margin: 0 auto;
+			    border: 1px solid red;
+			}
+			#turntable {
+				background: url(img/turntable.png);
+				width: 450px;
+				height: 450px;
+				position: absolute;
+				margin-top: 60px;
+				margin-left: 116px;
+			}
+			#pointer{
+				width: 174px;
+				height: 228px;
+				background: url(img/pointer.png);
+				z-index: 8;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-top: -140px;
+				margin-left: -64px;
+			}
+			
+		</style>
+		<script type="text/javascript">
+			var pointer = document.getElementById("pointer");
+			var turntable = document.getElementById("turntable");
+			var lottery = function () {
+				var lotterynum = Math.floor(Math.random() * 100);
+				if (lotterynum < 1) {
+					return {
+						code:1,
+						text:"一等奖"
+					};
+				}
+				else if (lotterynum < 5) {
+					return {
+						code:2,
+						text:"二等奖"
+					};
+				}
+				else if (lotterynum < 15) {
+					return {
+						code:3,
+						text:"三等奖"
+					};
+				}
+				else if (lotterynum < 25) {
+					return {
+						code:4,
+						text:"四等奖"
+					};
+				}
+				else if (lotterynum < 35) {
+					return {
+						code:5,
+						text:"五等奖"
+					};
+				}
+				else if (lotterynum < 45) {
+					return {
+						code:6,
+						text:"六等奖"
+					};
+				}
+				else {
+					return {
+						code:7,
+						text:"无奖"
+					};
+				}
+			}
+			var rotate = function () {
+				turntable.style.transition = "all 3s";
+				var x = lottery();
+				console.log(x);
+				var turn = 30 + (360 / 7) * (x.code - 1);
+				turntable.style.transform = 'rotate(' + (turn + 360 * 3) + 'deg)';
+				setTimeout(function() {
+					turntable.style.transition = "all 0s";
+					turntable.style.transform = 'rotate('+ turn + 'deg)';
+					alert(x.text);
+					canClik = true;
+				},3000);
+				
+			}
+			var canClik = true;
+			pointer.onclick = function() {
+				if (canClik === true) {
+					rotate();
+				}
+				canClik = false;
+			}
+		</script>
+	</body>
+</html>

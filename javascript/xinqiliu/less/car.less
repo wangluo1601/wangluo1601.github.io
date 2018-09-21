@@ -1,0 +1,45 @@
+.car{
+   width: 400px;
+   height: 200px;
+   margin: 0 auto;
+   position: relative;
+   .car-content{ 
+       img:first-child{
+            position: relative;
+            width: 400px;
+            opacity: 0;
+           }
+       img {
+            width: 400px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 1;
+            transition: opacity 1s;
+   }
+
+   }
+   .car-prev-next{
+       #prev,#next{
+//         background: orange;
+           display: inline-block;
+//         line-height: 24px;
+           position: absolute;
+           top: 0;
+           bottom: 0;
+           height: 24px;
+           margin: auto;
+       }
+       #prev{
+           left: 0;
+           
+       }
+       #next{
+           right: 0;
+       }
+   }
+     }     
+       
+   
+  
+    

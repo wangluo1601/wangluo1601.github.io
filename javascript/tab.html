@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="tab">
+			<span class="xxx active">box1</span>
+			<span class="xxx">box2</span>
+			<span class="xxx">box3</span>
+			<div class="box1">boxa</div>
+			<div class="box2">boxb</div>
+			<div class="box3">boxc</div>
+		</div>
+		<style type="text/css">
+			span{background: red;}
+			span.active{
+				border: 1px solid yellow;
+				background: blueviolet;
+			}
+			span.xxx{
+				color: white;
+			}
+			div[class^=box]{
+				width: 100px;
+				height: 100px;
+				background: lightblue;
+				display: none;
+			}
+			div[class^=box].active{
+				display: block;
+			}
+		</style>
+		<script type="text/javascript">
+			var tab = document.getElementsByClassName('tab')[0];
+			var spans = document.querySelectorAll('.tab span')
+			var boxs = document.querySelectorAll('.tab div')
+			
+			for (var i = 0; i<spans.length; i++){
+				spans[i].index = i ;
+			}
+			for (var i = 0; i<spans.length; i++){
+				spans[i].onclick = function(){
+					for (var i = 0; i<spans.length; i++){
+						spans[i].className = 'xxx';
+					}
+					var classArray = this.className.split(' ');
+					classArray.push('active');
+					this.className = classArray.join(' ');
+					for (var i = 0; i<boxs.length; i++){
+						boxs[i].style.display = "none";
+					}
+					boxs[this.index].style.display = "block";
+				}
+			}
+		</script>
+	</body>
+</html>
