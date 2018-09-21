@@ -25,3 +25,11 @@
 
 
 ------
+## javascript
+[ 抽奖](https://wangluo1601.github.io/javascript/choujian)https://wangluo1601.github.io/javascript/choujian
+
+[打飞机游戏](https://wangluo1601.github.io/javascript/plane)https://wangluo1601.github.iojavascript/plane
+
+[轮播图](https://wangluo1601.github.io/javascript/xinqiliu)https://wangluo1601.github.io/javascriptxinqiliu
+
+----------
