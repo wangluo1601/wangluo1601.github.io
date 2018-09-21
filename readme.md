@@ -60,4 +60,5 @@
 [轮播图](https://wangluo1601.github.io/jquery/slider.html)https://wangluo1601.github.io/jquery/slider.html
 
 ------
+##svg
 [svg](https://wangluo1601.github.io/svg/svg-loading-icons)https://wangluo1601.github.io/svg/svg-loading-icons
