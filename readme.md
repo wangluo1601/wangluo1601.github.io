@@ -11,6 +11,10 @@
 
 [3D动画2](https://wangluo1601.github.io/html+css/8-10.html)https://wangluo1601.github.io/html+css/8-10.html
 
+[3D动画3](https://wangluo1601.github.io/html+css/chart-less)https://wangluo1601.github.io/html+css/chart-less
+
+[svg+ttf](https://wangluo1601.github.io/html+css/svg+ttf)https://wangluo1601.github.io/html+css/svg+ttf
+
 [hover动画2](https://wangluo1601.github.io/html+css/hover (2).html)https://wangluo1601.github.io/html+css/hover (2).html
 
 [hover动画](https://wangluo1601.github.io/html+css/hover.html)https://wangluo1601.github.io/html+css/hover.html
