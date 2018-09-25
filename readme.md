@@ -1,5 +1,4 @@
 ## html+css
-[简单页面](https://wangluo1601.github.io/html+css)https://wangluo1601.github.io/html+css
 
 [css按钮](https://wangluo1601.github.io/html+css/input (1).html)https://wangluo1601.github.io/html+css/input (1).html
 
@@ -55,11 +54,8 @@
 
 [放大1](https://wangluo1601.github.io/jquery/zoom.html)https://wangluo1601.github.io/jquery/zoom.html
 
-[放大2](https://wangluo1601.github.io/jquery/jq-zoom02.html)https://wangluo1601.github.io/jquery/jq-zoom02.html
-
 [轮播图](https://wangluo1601.github.io/jquery/slider.html)https://wangluo1601.github.io/jquery/slider.html
 
 ------
 ## svg
 
-[svg](https://wangluo1601.github.io/svg/svg-loading-icons)https://wangluo1601.github.io/svg/svg-loading-icons
