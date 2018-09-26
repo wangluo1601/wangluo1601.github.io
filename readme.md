@@ -57,5 +57,8 @@
 [轮播图](https://wangluo1601.github.io/jquery/slider.html)https://wangluo1601.github.io/jquery/slider.html
 
 ------
-## svg
+## bootstrap
+
+[种地](https://wangluo1601.github.io/bootstrap/zhongdi/zhongdi/)https://wangluo1601.github.io/bootstrap/zhongdi/zhongdi/
+
 
