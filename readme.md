@@ -54,6 +54,8 @@
 
 [放大1](https://wangluo1601.github.io/jquery/zoom.html)https://wangluo1601.github.io/jquery/zoom.html
 
+[放大2](https://wangluo1601.github.io/jquery/zoom2.html)https://wangluo1601.github.io/jquery/zoom2.html
+
 [轮播图](https://wangluo1601.github.io/jquery/slider.html)https://wangluo1601.github.io/jquery/slider.html
 
 ------
