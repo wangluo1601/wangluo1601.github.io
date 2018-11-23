@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<style>
+    body {
+        margin: 0 auto;
+        width: 360px;
+        font-family: Helvetica, sans-serif;
+    }
+
+    #app {
+       
+    }
+
+    .grid .item {
+        width: 50%;
+        float: left;
+        overflow: hidden;
+
+    }
+
+    .list .item {
+        width: 100%;
+        overflow: hidden;
+        padding: 5px 0 2px;
+        display: block;
+        border-top: 1px solid #e5e5e5;
+    }
+
+    .list .item:last-child {
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .list .item img {
+        float: left;
+    }
+
+    .productList .item img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .list .item .desc {
+        float: left;
+    }
+
+    .list .item .desc {
+        width: 240px;
+        overflow: hidden;
+        padding: 0 10px 8px;
+        box-sizing: border-box;
+    }
+
+    .productList .item .desc h5 {
+        margin: 8px 0px 0px;
+    }
+
+    .productList .item .desc h5 i {
+
+        width: 34px;
+        height: 14px;
+        background: url("https://img11.360buyimg.com/jdphoto/s68x28_jfs/t24730/322/2165679440/954/fe3afa05/5bc45b9aNb1315ac0.png");
+        background-size: 100%;
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+ .productList .item .desc .price::before {
+        content: '¥ ';
+    }
+
+   .productList .item .desc .price {
+        color: red;
+    }
+</style>
+
+<body>
+    <div id="app">
+        <div class="model">
+            <button @click="model='grid'" v-if="model==='list'">grid</button>
+            <button @click="model='list'" v-else>list</button>
+        </div>
+        <div class="productList" :class="model">
+        <div class="item" v-for="item in products" :key="item.id">
+            <img :src="item.thumb" alt="">
+            <div class="desc">
+                <h5><i v-if="item.isDouble11"></i>{{item.title}}</h5>
+                <span class="price">{{item.price}}</span>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                model: 'grid',
+                products: [{
+                        title: 'Apple iPhone X ',
+                        thumb: 'https://img13.360buyimg.com/n2/s240x240_jfs/t10675/253/1344769770/66891/92d54ca4/59df2e7fN86c99a27.jpg!q70.jpg ',
+                        price: '6999.00 ',
+                        isDouble11: true,
+                        CustomAttrList: "64GB^6.1英寸"
+                    },
+                    {
+                        title: 'Apple iPhone XS Max (A2104) 256GB 金色 移动联通电信4G手机 双卡双待 ',
+                        thumb: 'https://img14.360buyimg.com/n2/s240x240_jfs/t1/4528/10/3590/153299/5b997bf5E4a513949/45ab3dd6c35d981b.jpg!q70.jpg',
+                        price: '10999.00 ',
+                        isDouble11: true
+                    },
+                    {
+                        title: 'AGM X2 全网通4G 户外三防智能手机 双卡双待 骁龙 黑金版 6G+128G ',
+                        thumb: 'https://img10.360buyimg.com/n2/s240x240_jfs/t20761/290/527613067/162386/2ea72123/5b0fea94Nb5ab4ae1.png ',
+                        price: '4699.00 ',
+                        isDouble11: false
+                    },
+                    {
+                        title: 'Apple iPhone 8 ',
+                        thumb: 'https://img10.360buyimg.com/n2/s240x240_jfs/t9085/22/907696059/71305/93f88c62/59b85847N20776d8e.jpg!q70.jpg ',
+                        price: '4599.00 ',
+                        isDouble11: true
+                    },
+                ]
+            }
+        })
+    </script>
+</body>
+
+</html>

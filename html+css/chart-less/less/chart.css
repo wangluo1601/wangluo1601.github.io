@@ -96,8 +96,8 @@ input + .card .chart {
   font-size: 0;
 }
 input + .card .chart .bar {
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 19px;
   display: inline-block;
   font-size: 12px;
   margin: 8px;
@@ -130,7 +130,7 @@ input + .card .chart .bar::after {
   display: block;
   top: 0;
   left: 0;
-  content: "M";
+  content: "Z";
   background: white;
   transform: translateZ(0px);
   transition: inherit;

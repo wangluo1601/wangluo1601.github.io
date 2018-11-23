@@ -12,7 +12,7 @@
 
 [3D动画3](https://wangluo1601.github.io/html+css/chart-less)
 
-[svg+ttf](https://wangluo1601.github.io/html+css/svg+ttf)
+[svg图标+ttf字体图标+图片图标](https://wangluo1601.github.io/html+css/svg+ttf)
 
 [hover动画2](https://wangluo1601.github.io/html+css/hover (2).html)
 
@@ -56,7 +56,11 @@
 
 [放大镜2](https://wangluo1601.github.io/jquery/zoom2.html)
 
-[轮播图](https://wangluo1601.github.io/jquery/slider.html)
+[无缝滚动轮播](https://wangluo1601.github.io/jquery/lunbo/1.html)
+
+[网页换肤](https://wangluo1601.github.io/jquery/huanfu/)
+
+[网页选项卡](https://wangluo1601.github.io/jquery/xuanxiang/)
 
 ------
 ## bootstrap
@@ -67,5 +71,10 @@
 ## canvas
 
 [canvas画的安卓机器人](https://wangluo1601.github.io/canvas/Android-robot.html)
+
+------
+## vue.js
+
+[仿京东手机端商品列表](https://wangluo1601.github.io/canvas/Android-robot.html)
 
 
