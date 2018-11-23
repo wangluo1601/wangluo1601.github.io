@@ -46,8 +46,6 @@
 
 [按钮](https://wangluo1601.github.io/jquery/button.html)
 
-[hover按钮](https://wangluo1601.github.io/jquery/csshuadong.html)
-
 [jq-ajax1](https://wangluo1601.github.io/jquery/jq-ajax.html)
 
 [jq-ajax2](https://wangluo1601.github.io/jquery/jq-meinu.html)
