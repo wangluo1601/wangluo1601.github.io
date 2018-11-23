@@ -60,7 +60,7 @@
 
 [网页换肤](https://wangluo1601.github.io/jquery/huanfu/)
 
-[网页选项卡](https://wangluo1601.github.io/jquery/xuanxiang/)
+[网页选项卡](https://wangluo1601.github.io/jquery/xuanxian/)
 
 ------
 ## bootstrap
@@ -75,6 +75,6 @@
 ------
 ## vue.js
 
-[仿京东手机端商品列表](https://wangluo1601.github.io/canvas/Android-robot.html)
+[仿京东手机端商品列表](https://wangluo1601.github.io/vue/jindon.html)
 
 
