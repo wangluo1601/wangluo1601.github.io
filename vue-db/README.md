@@ -24,29 +24,10 @@ Awesome douban DEMO created with Vue2.x + Vuex + Vue-router + Superagent
     <br><br>
     <strong>......</strong>
     <br>
-	 <strong><a href="https://jeneser.github.io/douban/">Live Demo</a></strong>
+	 
 </p>
 
-## Features
 
-- Vue + vue-router + vuex + Superagent working together
-- Vuex divide store into modules
-- Modern JavaScript syntax with ES6
-- vue-cli webpack template
-- Single-file Vue Components
-- API request seperated
-- Real remote API and some mock data
-- eslint linter integration
-- Hot-reload in development
-- Css with Sass
-- No third party CSS framework
-- Complex and different style view logic
-- Infinite loading list
-- Complete search logic
-- Custom components like List, Rating, Tags ...
-- Authentication with JSON Web Tokens
-- Complete register login logic
-......
 
 
 ## Build Setup
@@ -206,6 +187,6 @@ For detailed explanation, checkout the [Douban Api V2](https://developers.douban
 
 <a href="https://github.com/LIANGWEIBIAO" target="_blank"><img src="https://avatars2.githubusercontent.com/u/24608984?v=4&s=460" width="38px"></a> <a href="https://github.com/lizhanjie1314" target="_blank"><img src="https://avatars1.githubusercontent.com/u/15324887?v=4&s=460" width="38px"></a> <a href="https://github.com/fredshare" target="_blank"><img src="https://avatars3.githubusercontent.com/u/765082?v=4&s=460" width="38px"></a> <a href="https://github.com/Werb" target="_blank"><img src="https://avatars1.githubusercontent.com/u/12763277?v=4&s=460" width="38px"></a> <a href="https://github.com/jfliapp" target="_blank"><img src="https://avatars2.githubusercontent.com/u/27725921?v=4&s=460" width="38px"></a> <a href="https://github.com/bluestrings" target="_blank"><img src="https://avatars2.githubusercontent.com/u/6144152?v=4&s=460" width="38px"></a> <a href="https://github.com/silverpeng" target="_blank"><img src="https://avatars2.githubusercontent.com/u/25680922?v=4&s=460" width="38px"></a> <a href="https://github.com/KngZhi" target="_blank"><img src="https://avatars1.githubusercontent.com/u/11361147?v=4&s=460" width="38px"></a>
 
-## License
 
-[MIT](https://github.com/jeneser/douban/blob/master/LICENSE) Copyright (c) 2017 [Jeneser](https://jeneser.github.io/)
+
+
