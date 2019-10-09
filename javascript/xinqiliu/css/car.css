@@ -1,0 +1,34 @@
+.car {
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+.car .car-content img:first-child {
+  position: relative;
+  width: 400px;
+  opacity: 0;
+}
+.car .car-content img {
+  width: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: opacity 1s;
+}
+.car .car-prev-next #prev,
+.car .car-prev-next #next {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 24px;
+  margin: auto;
+}
+.car .car-prev-next #prev {
+  left: 0;
+}
+.car .car-prev-next #next {
+  right: 0;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="box">
+			<img src="./asset/images/landscape.jpg" />
+			<div class="zoom"></div>
+			<div class="xxx"></div>
+		</div>
+		<div class="view">
+			<img src="./asset/images/landscape.jpg" />
+		</div>
+		<style>
+			.box{
+				width: 200px;
+				height: 200px;
+				position: relative;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			.box img {
+				width: 100%;
+			}
+			.zoom {
+				width: 100px;
+				height: 100px;
+				background: rgba(245, 115, 0, 0.6);
+				position: absolute;
+				top: 0;
+				left: 100px; 
+				display: none;
+			}
+			.xxx {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			.view {
+				width: 300px;
+				height: 300px;
+				overflow: hidden;
+				margin: 0 auto;
+				/*border: 1px solid red;*/
+				position: relative;
+				display: none;
+			}
+			.view img {
+				width: 600px;
+				height: 600px;
+				position: absolute;
+				top: -50px;
+				left: -50px;
+			}
+		</style>
+		<script>
+			var cation = $('.view img').width() / $('.box img').width();
+			$('.box .xxx').mousemove(function (e) {
+				var x = e.offsetX;
+				var y = e.offsetY;
+				if (e.offsetX <= 50) {
+					x = 50;
+				}
+				if (e.offsetX >= 150) {
+					x = 150;
+				}
+				if (e.offsetY <= 50) {
+					y = 50;
+				}
+				if (e.offsetY >= 150) {
+					y = 150;
+				}
+				$('.zoom').css({
+					top: y - 50,
+				    left: x - 50
+				})
+				$('.view img').css({
+					top: (y - 50) * -cation,
+				    left: (x - 50) * -cation
+				})
+			});
+			
+			$('.box .xxx').hover(function () {
+			$('.box zoom').add('.view').show();
+			$('.box zoom').add('.zoom').show()
+				},function(){
+					$('.box zoom').add('.view').hide();
+					$('.box zoom').add('.zoom').hide()
+				})
+		</script>
+	</body>
+</html>
